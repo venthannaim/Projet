@@ -96,6 +96,11 @@ input[name="sexe"]:hover,input[name="sexe"]:hover
   justify-content:center;
   margin-top: 1em;
 }
+a#Retour
+{
+  text-decoration: none;
+  color: black;
+}
 #astuce
 {
   margin-top: 2em;
@@ -110,7 +115,7 @@ p
 }
 #paypal
 {
-  width: 50%
+  width: 30%
 }
 footer
 {
