@@ -71,21 +71,17 @@ h2
 #connexion
 {
     width: 100%;
-    font-size: 1.1em
+    font-size: 1em;
+    background-image: url("../img/point.gif");
+    background-position: top;
+    background-repeat: no-repeat;
+
 }
 input:hover
 {
   margin-left: -3em;
   background-color: linear-gradient(to right, white, grey);
 }
-#connexion
-{
-    background-image: url("../img/point.gif");
-    background-position: top;
-    background-repeat: no-repeat;
-
-}
-
 input[name="sexe"]:hover,input[name="sexe"]:hover
 {
   margin-left: -0em;
