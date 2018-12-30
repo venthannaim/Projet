@@ -1,0 +1,72 @@
+*
+{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.05em;
+}
+header
+{
+  border-bottom: 1px solid black
+}
+header p 
+{
+  text-align: center;
+}
+header p.Pub1
+{
+ font-style: Italic;
+ margin-bottom: 5px;
+ text-shadow: 1px 1px 2px black;
+}
+
+header p.Pub2
+{
+ font-style: Italic;
+ font-weight: bold;
+ font-size: 0.9em;
+ color: red;
+ margin-top: 5px;
+ 
+}
+
+header h1.Titre
+{
+  text-align: center;
+}
+header h1.Titre a
+{
+  font-family: 'Satisfy', cursive;
+  font-size: 3em;
+  color: black;
+}
+
+h2
+{
+  font-size: 1.2em
+}
+article
+{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #d0d0d0;
+    width: 530px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    background-image: url("../img/pose.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bonnevisite
+{
+  margin-top: 5em;
+}
+#logo
+{
+display:block;
+width:auto;
+margin-left:auto;
+margin-right:auto;
+}
+

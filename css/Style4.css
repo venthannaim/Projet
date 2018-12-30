@@ -1,0 +1,114 @@
+*
+{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.05em;
+}
+header
+{
+  border-bottom: 1px solid black
+}
+header p 
+{
+  text-align: center;
+}
+header p.Pub1
+{
+ margin-bottom: 5px;
+ text-shadow: 1px 1px 2px black;
+}
+
+header p.Pub2
+{
+ font-style: Italic;
+ font-weight: bold;
+ font-size: 0.9em;
+ color: red;
+ margin-top: 5px;
+ 
+}
+
+header h1.Titre
+{
+  text-align: center;
+}
+header h1.Titre a
+{
+  font-family: 'Satisfy', cursive;
+  font-size: 3em;
+  color: black;
+}
+tr
+{
+  display: flex;
+  flex-direction: column;
+}
+div
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+#Titre
+{
+  font-family: 'Patrick Hand', cursive;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+#taille
+{
+  font-style:italic;
+  color: #6b2e2e;
+ }
+#achat
+{
+  margin-top: 4em;
+  font-size: 1em;
+}
+#achat a
+{
+  text-decoration: none;
+  color:black;
+}
+#achat a:hover
+{
+  animation: allblink 2s infinite;
+}
+#sweat
+{
+  margin-right: 1em;
+}
+@keyframes allblink 
+{ 
+0% { }
+50% { color:#ee0404; background-color:white; } 
+}
+#commentaire
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+#comment 
+{
+  width: 30em;
+  height: 5em;
+}
+textarea
+{
+  width: 20em;
+  height: 5em;
+}
+footer
+{
+  border-top: 1px solid black;
+  text-align: center;
+  background-color: #a1a1a1
+}
+footer p
+{
+  margin-top: 0.5em;
+  color: white
+}
